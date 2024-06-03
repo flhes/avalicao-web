@@ -37,5 +37,13 @@ function mediaNotas(){
         alert(resultado+ "é menor que " +numero3)
       }
     }
+    function retangulo(){
+        var numero11 = parseInt(document.getElementById("nume1").value);
+        var numero12 = parseInt(document.getElementById("nume2").value);
+        var resultado = numero11 * numero12
+        var teste = document.getElementById("resultadoretangulo")
+        teste.innerHTML=resultado
+    }
+    
   
   
