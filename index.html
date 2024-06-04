@@ -3,60 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="ovo.css">
+    <script src="in.js"></script>
 </head>
 <body>
     <div class="container">
-        <div id="nome"><h1>Felipe Felix Gaviolle</h1></div>
+        <div id="nome"><h1>NOME:Felipe Felix Gaviolle</h1></div>
+
         <div id="item1">
-            <div id="p1">
-                <label for="">calculadora-dividir</label> <br>
+            <div id="p1"><label for="">calculadora-dividir</label> <br>
                 <label for="">digite um numero:</label> <br>
                 <input type="number" id="num1"> <br>
                 <label for="">digite outro numero:</label> <br>
                 <input type="number" id="num2"><button type="submit" onclick="dividirNumeros()">dividir</button>
-                <div id="resultadoDividir">Resultado: </div>
+                <div id="resultadoDividir">resultado:</div>
             </div>
-            <div id="p2"> calculo de nota
-                <label for="">Digite um número inteiro</label>
-                <input type="number" id="num3"><br>
-                <label for="">Digite outro número inteiro</label>
-                <input type="number" id="num4"><br>
-                <label for="">Digite outro número inteiro</label>
-                <input type="number" id="num5"><br>
-                <label for="">Digite outro número inteiro</label>
-                <input type="number" id="num6"><br>
-                <input type="button" value="media" onclick="mediaNotas()"/>
-                </div>
-            <div id="p3">soma A,B e C <br>
-                <label for="">Digite um número inteiro</label>
-                <input type="number" id="numero1"><br>
-                <label for="">Digite outro número inteiro</label>
-                <input type="number" id="numero2"><br>
-                <label for="">Digite outro número inteiro</label>
-                <input type="number" id="numero3"><br>
-                <input type="button" value="media" onclick="somarNumeros()"/>
+            <div id="p2"> calculo da nota <br>
+                <label for="">Digite sua primeira nota:</label>
+                <input type="number" id="nota1"> <br>
+
+                <label for="">Digite sua segunda nota:</label> 
+                <input type="number" id="nota2"><br>
+
+                <label for="">Digite sua terceira nota: </label> 
+                <input type="number" id="nota3"><br>
+
+                <label for="">Digite sua quarta nota: </label> 
+                <input type="number" id="nota4"><br>
+
+
+                <input type="button" value="nota" onclick="notaNumeros()">
+            </div>
+            <div id="p3">calculo de soma <br>
+                <label for="">Digite o A:</label><br>
+                <input type="number" id="num10"> <br>
+
+                <label for="">Digite o B:</label> <br>
+                <input type="number" id="num11"> <br>
+
+                <label for="">Digite o C:</label> <br>
+                <input type="number" id="num12">
+
+                <input type="button" value="soma" onclick="somarNumeros()">
             </div>
         </div>
+
         <div id="item2">
-            <div id="p4">
-                <label for="">calcular a area de um retângulo </label> <br>
+            <div id="p4"><label for="">calcular a area de um retângulo </label> <br>
                 <label for="">digite o comprimento:</label> <br>
-                <input type="number" id="nume1"> <br>
+                <input type="number" id="num13"> <br>
                 <label for="">digite a largura:</label> <br>
-                <input type="number" id="nume2"> 
+                <input type="number" id="num14"> 
                 <button type="submit" onclick="retangulo()">calcular</button>
                 <div id="resultadoretangulo">resultado:</div>
             </div>
-            <div id="p5">5</div>
-            <div id="p6">6</div>
-       
+            <div id="p5">
+                <label for="">calculo do salario</label><br>
+                <label for="">digite o salario atual:</label><br>
+                <input type="number" id="num15"><br>
+                <label for="">digite o reajuste:</label><br>
+                <input type="number" id="porc"><br>
+                <button type="submit" onclick="reajuste()">calcular:</button>
+                <div id="salarioAtual">Resultado:</div>
+            </div>
+            <div id="p6">
+                <label for="">Numero maior e menor que 10</label><br>
+                <label for="">Digite um numero:</label><br>
+                <input type="number" id="num17">
+                <button type="submit" onclick="pinto()">calcular:</button>
+            </div>
         </div>
 
     </div>
 </body>
 </html>
-
 
